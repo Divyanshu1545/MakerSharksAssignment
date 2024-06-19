@@ -18,7 +18,8 @@ public class User{
 
     @Column(unique = true,nullable = false)
     String email;
-
+    @Column(nullable = false)
+    String name;
     @Column(nullable = false)
     String phoneNumber;
 
